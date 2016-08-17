@@ -1,0 +1,25 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           "pretty"
+# relative_permalinks: true
+
+# Setup
+title:               "mylk"
+tagline:             "Mylk's blog"
+description:         "Mylk's blog"
+url:                 "mylk.github.io"
+baseurl:             ""
+paginate:            1
+
+# About/contact
+author:
+    name:              "Kostas Milonas"
+    url:               "https://twitter.com/milonasko"
+    email:             "milonas.ko@gmail.com"
+
+# Custom vars
+version:             1.0.0
+
+# Gems
+gems: [jekyll-paginate]
