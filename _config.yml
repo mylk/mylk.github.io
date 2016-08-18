@@ -22,4 +22,4 @@ author:
 version:             1.0.0
 
 # Gems
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-gist]
