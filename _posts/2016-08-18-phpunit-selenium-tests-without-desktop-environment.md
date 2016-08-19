@@ -9,6 +9,8 @@ In case anything breaks, you will be the first to know because your tests will t
 
 I like to call this, "mental health".
 
+[#](#why-you-should-do-this){:.header-anchor}
+
 ## Why you should do this?
 
 ### Scenario 1
@@ -26,6 +28,8 @@ In this case you have to setup remote port forwarding so the host that runs PHPU
 
 You also have to take care to keep the persistent connection of the port forwarding alive. Hm, sounds messy to me.
 
+[#](#the-solution){:.header-anchor}
+
 ## The solution
 The server that runs your tests can also run the Selenium server and the browser, without having a desktop environment
 or do remote port forwarding.
@@ -40,6 +44,8 @@ A tested and working solution consists of the following software:
 - Selenium standalone server v2.45.0
 - Chromedriver v2.22
 - Latest stable Google Chrome browser
+
+[#](#downloading-the-software){:.header-anchor}
 
 ## Downloading the software
 Install Xvfb:
@@ -90,6 +96,8 @@ sudo dpkg -i google-chrome-*.deb
 
 "deb" packages and the "dpkg" application are only available to Debian based distros. If you don't run one of them,
 use your distro's packages and package manager.
+
+[#](#get-all-things-running){:.header-anchor}
 
 ## Get all things running
 You are already able to run all that software manually, but lets make it look like a more permanent solution
@@ -174,6 +182,8 @@ sudo systemctl start selenium.service
 ```
 
 Start your Selenium tests as usual and they will be running on your virtual display server!
+
+[#](#conclusion){:.header-anchor}
 
 ## Conclusion
 Often, the cleanest and more permanent solution is the one that consists of the less components
