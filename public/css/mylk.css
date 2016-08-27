@@ -1,21 +1,39 @@
 .sidebar-item a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .sidebar-item a.active {
-  display: block;
-  text-decoration: none;
-  background-color: rgba(255,255,255,.1);
-  border-color: transparent;
+    display: block;
+    text-decoration: none;
+    background-color: rgba(255,255,255,.1);
+    border-color: transparent;
 }
 
 .sidebar-item .sidebar-post {
-  padding-top: 12px;
+    padding-top: 12px;
 }
 
 .header-anchor {
-  float: left;
-  font-size: 26px;
-  padding-right: 6px;
-  color: lightgray;
+    float: left;
+    font-size: 26px;
+    padding-right: 6px;
+    color: lightgray;
+}
+
+#sidebar-identity {
+    position: relative;
+    padding-bottom: 10px;
+}
+
+#sidebar-identity #profile-img {
+    width: 80px;
+    padding-left: 30px;
+}
+
+#sidebar-identity ul {
+    position: absolute;
+    left: 60px;
+    top: 1px;
+    font-size: 11px;
+    list-style: none;
 }
