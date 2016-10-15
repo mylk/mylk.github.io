@@ -22,11 +22,15 @@ Two origins are "same" when their following properties match:
 - hostname
 - port number
 
+[#](#how-to-lift-the-restriction){:.header-anchor}
+
 ## How to lift the restriction
 
 To lift the restriction, the CORS standard comes in handy and dictates a way to control and define permissions for other origins
 to be authorized. The CORS standard works by adding HTTP headers to server responses and describe the set of origins that are permitted
 to query the requested resource.
+
+[#](#the-preflight){:.header-anchor}
 
 ## The "preflight"
 
@@ -45,6 +49,8 @@ A nice representation of a cross-origin request:
 This work, is a derivative of [Bluesmoon](http://www.flickr.com/photos/bluesmoon/)'s work
 used under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)
 and is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) by Kostas Milonas.
+
+[#](#the-request-initiator){:.header-anchor}
 
 ## The request initiator
 
@@ -75,6 +81,8 @@ Nothing special. Just note the ```url``` of the AJAX request pointing to another
 Also, by adding the ```X-Requested-With``` header we ensure that the request recipient application will effectively
 detect that its an AJAX (XMLHTTP) request.
 
+[#](#the-request-recipient){:.header-anchor}
+
 ## The request recipient
 
 As previously said, when a cross-origin AJAX request takes place, may cause the browser to firstly send an OPTIONS HTTP request,
@@ -101,6 +109,8 @@ So, the server responds with the following "rules":
 - POST, GET, and OPTIONS are viable methods to query this resource
 
 The value of ```Access-Control-Allow-Origin``` can also be a ```*``` to allow all domains.
+
+[#](#possible-troubles){:.header-anchor}
 
 ## Possible troubles
 
