@@ -15,14 +15,13 @@ paginate:            1
 # About/contact
 author:
     name:              "Kostas Milonas"
-    url:               "https://twitter.com/mylkohrly"
     email:             "milonas.ko@gmail.com"
 
 # Custom vars
 version:             1.0.0
 
 # Gems
-gems: [jekyll-paginate, jekyll-gist]
+plugins: [jekyll-paginate, jekyll-gist]
 
 kramdown:
     auto_ids: true
