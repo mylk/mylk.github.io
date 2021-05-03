@@ -25,7 +25,7 @@ An aviation ACARS message visualizer.
 Python
 
 **workable-missing-rss**  
-A revive of Workable's "Greek start-ups feed".  
+A revival of Workable's "Greek start-ups feed".  
 [Visit](http://mylk.wtf/workable-missing-rss), [Source](https://github.com/mylk/workable-missing-rss)  
 Python
 
@@ -34,7 +34,7 @@ Python
 ### Tools and libraries
 
 **rabbitmq-alert**  
-Send notifications to the staff when predefined conditions are triggered.  
+A RabbitMQ monitoring tool that sends notifications when conditions are met.  
 [Package](https://pypi.org/project/rabbitmq-alert/), [Source](https://github.com/gfronza/rabbitmq-alert)  
 Python
 
@@ -42,6 +42,11 @@ Python
 A crontab generator using natural language expressions.  
 [Package](https://packagist.org/packages/mylk/chronis), [Source](https://github.com/mylk/chronis)  
 PHP
+
+**termrea**  
+An RSS reader for the terminal.  
+[Source](https://github.com/mylk/termrea)  
+Python
 
 **commit-sniffer**  
 Git repository quality stats based on commit messages and merges.  
@@ -74,12 +79,12 @@ PHP
 
 **nmap**  
 Network scanner.  
-Contributed with multiple NSE scripts for vulnerability scanning on well-known applications and appliances.  
+Contributed multiple NSE scripts for vulnerability scanning of well-known applications and appliances.  
 [Source](https://github.com/mylk/nmap/branches)  
 Lua
 
 **Greek-Hoaxes-Detector**  
 A Chrome plugin that warns users against possibly untrustworthy greek news sources.  
-Contributed with extending the functionality for Reddit.  
+Contributed extending the functionality for Reddit.  
 [Source](https://github.com/mylk/Greek-Hoaxes-Detector/tree/reddit)  
 JavaScript
