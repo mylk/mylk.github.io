@@ -23,7 +23,7 @@
         }
 
         p.last {
-            margin-bottom: 0px;
+            margin-bottom: 3px;
         }
 
         hr {
@@ -42,11 +42,12 @@
             border-bottom: 15px solid #555555;
             border-top: 15px solid #555555;
             padding: 0 0 20px;
+            margin-bottom: 0px;
             color:  #333333;
             font-size:  12px;
             line-height:  20px;
             font-family:  Verdana;
-            width: 780px;
+            width: 60%;
         }
 
         table {
@@ -67,8 +68,8 @@
 
         .person-container {
             padding-left: 25px;
-            padding-right: 220px;
-            width: 77%;
+            padding-right: 210px;
+            width: 82.7%;
         }
 
         .person {
@@ -93,10 +94,10 @@
         }
 
         .item {
-            margin-bottom: 20px;
+            margin-bottom: 3px;
             padding-bottom: 20px;
-            border-bottom: 1px solid #dfdfdf;
-            width: 560px;
+            /* border-bottom: 1px solid #dfdfdf; */
+            width: 90%;
         }
 
         .item .top {
@@ -126,17 +127,12 @@
             float: right;
             background-color: #eeeeee;
             color: #333333;
-            font-size: 8px;
+            font-size: 8.5px;
             text-transform: uppercase;
-            margin: 0 0 1em;
-            padding: 2px 10px;
+            margin: 0 2px 1em;
+            padding: 2px 1px;
             width: 124px;
             text-align: center;
-        }
-
-        .item h4:hover {
-            background-color: #000000;
-            color: #ffffff;
         }
 
         .cv-section-items {
@@ -147,18 +143,18 @@
 
         h2.cv-section-name {
             color: #3C4756;
-            font-size: 19px;
+            font-size: 18px;
             font-style: italic;
             font-weight: 400;
             letter-spacing: -1px;
             text-align: right;
-            margin-right: 10px;
+            margin-right: -10px;
         }
 
         .cv-section-name {
             margin-top: 0px;
-            margin-left: 10px;
-            width: 170px;
+            margin-left: 30px;
+            width: 140px;
         }
 
         a.emailme {
@@ -184,7 +180,7 @@
             background-color: #FFFFFF;
             margin: 0px;
             padding: 0px;
-            height: 180px;
+            height: 160px;
         }
 
         .tags-title  {
@@ -205,7 +201,7 @@
             float: left;
             background-color: #eeeeee;
             color: #333333;
-            font-size: 8px;
+            font-size: 9px;
             text-transform: uppercase;
             margin: 2px 5px;
             padding: 2px 10px;
@@ -217,9 +213,33 @@
         }
 
         .personal-profile {
-            font-size: 10px;
+            font-size: 11px;
             line-height: 16px;
         }
+
+        .second-cv-section {
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        /* projects */
+        .project-item {
+            margin-bottom: 0px;
+            padding-bottom: 20px;
+        }
+
+        .project-item .top {
+            margin-right: 10px;
+        }
+
+        .project-item .sub {
+            padding-bottom: 0px;
+        }
+
+        .project-item a {
+            text-decoration: none;
+        }
+        /* projects */
 
         @media print {
             .second-cv-section {
@@ -268,6 +288,7 @@
                             <!--<li><strong>Lives</strong>: Athens, Greece</li>-->
                             <li><strong>Email</strong>: <a href="mailto:milonas.ko@gmail.com">milonas.ko@gmail.com</a></li>
                             <li><strong>GitHub</strong>: <a href="https://github.com/mylk">mylk</a></li>
+                            <li><strong>LinkedIn</strong>: <a href="https://linkedin.com/in/milonasko">milonasko</a></li>
                             <li><strong>Blog</strong>: <a href="https://mylk.github.io/">mylk.github.io</a></li>
                         </ul>
                     </td>
@@ -279,28 +300,23 @@
                 <table width="100%" class="second-cv-section" border="0">
                     <tr>
                         <td valign="top">
-                            <h2 class="cv-section-name">Professional Profile</h2>
+                            <h2 class="cv-section-name">Profile</h2>
                         </td>
                         <td>
                             <div class="item item-last">
                                 <ul>
                                     <!--<li>Proven analytical, development and social skills.</li>-->
-                                    <li>Possitive attitude.</li>
-                                    <li>Committed to continuous learning.</li>
-                                    <li>Never satisfied with the status quo.</li>
+                                    <li>Positive attitude.</li>
+                                    <li>Committed to continuous learning. Never satisfied with the status quo.</li>
                                     <!--<li>Prominent for steep learning curve.</li>-->
-                                    <li>
-                                        Focused on detail. Always trying to leave things how I would like to find them.
-                                    </li>
-                                    <li>
-                                        Able to work on small agile teams, propose solutions and be part of decision-making.
-                                    </li>
+                                    <li>Focused on detail. Always trying to leave things how I would like to find them.</li>
+                                    <li>Eager to propose solutions and improvements, be part of decision-making.</li>
                                     <li>Solid technical, system and network administration background.</li>
                                 </ul>
                             </div>
                         </td>
                     </tr>
-                    <tr><td colspan="2" height="30" valign="middle"><hr width="95%" /></td></tr>
+                    <tr><td colspan="2" height="30" valign="middle">&nbsp;</td></tr>
                     <tr>
                         <td valign="top">
                             <h2 class="cv-section-name">Objectives</h2>
@@ -308,59 +324,48 @@
                         <td>
                             <div class="item item-last">
                                 <ul>
-                                    <li>Broaden my experience in web development technologies.</li>
                                     <li>Acquire wider knowledge of best practices, methodologies and design patterns.</li>
                                     <li>Participate and contribute to open source projects.</li>
                                 </ul>
                             </div>
                         </td>
                     </tr>
-                    <tr><td colspan="2" height="30" valign="middle"><hr width="95%" /></td></tr>
+                    <tr><td colspan="2" height="30" valign="middle">&nbsp;</td></tr>
                     <tr>
                         <td valign="top">
-                            <h2 class="cv-section-name">Work Experience</h2>
+                            <h2 class="cv-section-name">Experience</h2>
                         </td>
                         <td>
                             <div class="item">
-                                <h4>Sep 2019 - Now</h4>
+                                <h4>Sep 2019 - June 2020</h4>
                                 <div class="top">Software Engineer</div>
-                                <div class="sub">Ferryscanner, Full time</div>
-                                <p>
-                                    - Member of an agile team, developing a ferry booking engine.
-                                </p>
-                                <p>
-                                    - Integrating with Computer Reservations Systems (ForthCRS) for reservations.
-                                </p>
+                                <div class="sub">Ferryscanner</div>
                                 <p class="last">
-                                    - Practicing DevOps for dockerization of applications and CI.
+                                    Member of the team that developed the ferry booking engine, integration with Computer Reservations Systems.<br />
+                                    Having the DevOps engineer role on the team, worked on dockerization and CI automation.
                                 </p>
                                 <!-- <div class="tags-title">Tags:</div> -->
                                 <ul class="tags">
                                     <li>PHP</li>
                                     <li>Zend</li>
                                     <li>Docker</li>
-                                    <li>Gearman</li>
-                                    <li>SCRUM</li>
                                 </ul>
                             </div>
                             <div class="item">
                                 <h4>Jan 2017 - Jun 2018</h4>
                                 <div class="top">Software Engineer</div>
-                                <div class="sub">Tripsta (TravelPlanet24 / Airtickets), Full time</div>
+                                <div class="sub">Tripsta (TravelPlanet24 / Airtickets)</div>
                                 <p>
-                                    - Member of the core team that implements the booking engine, practicing agile<br />
-                                    methodologies (SCRUM) and develops on diverse technologies.
-                                </p>
-                                <p>
-                                    - Integrate with Global Distribution Systems (Amadeus, Travelport, Sabre)<br />
-                                    and Low Cost Carrier content aggregators (Travelfusion) for airline reservations<br />
-                                    and Computer Reservations Systems (ForthCRS) for ferry reservations.
+                                    Member of the core team that implemented the booking engine with diverse technologies, integrated with Global<br />
+                                    Distribution Systems and Low Cost Carrier content aggregators for airline reservations and Computer Reservations<br />
+                                    Systems for ferry reservations.
                                 </p>
                                 <p class="last">
-                                    - Member of the DevOps chapter which implements CI, deployment solutions,<br />
-                                    dockerization of applications, application improvements and optimizations.<br />
-                                    Also member of the 1st level support chapter which monitors the applications<br />
-                                    and infrastructure and troubleshoots related issues.
+                                    Member of the DevOps chapter, working on CI, deployment process implementation, dockerization, application<br />
+                                    optimization, architecture improvements.
+                                </p>
+                                <p class="last">
+                                    Member of the 1st level support chapter, that monitored and troubleshooted the applications and the infrastructure.
                                 </p>
                                 <!-- <div class="tags-title">Tags:</div> -->
                                 <ul class="tags">
@@ -370,34 +375,26 @@
                                     <li>Spring Boot</li>
                                     <li>Python</li>
                                     <li>Twisted</li>
-                                    <li>Gearman</li>
+                                    <li>Docker</li>
                                     <li>SCRUM</li>
                                 </ul>
                             </div>
                             <div class="item">
                                 <h4>Oct 2014 - Jan 2017</h4>
                                 <div class="top">Software Engineer</div>
-                                <div class="sub">Zoottle Inc., Full time</div>
-                                <p>
-                                    - Developing quality focused web applications accompanied by automated tests<br />
-                                    and applying the TDD and BDD methodologies.
-                                </p>
-                                <p>
-                                    - Refactoring the existing codebase, improve the architecture and<br />
-                                    performance of the platform and it's analytics dashboards.
-                                </p>
+                                <div class="sub">Zoottle Inc.</div>
                                 <p class="last">
-                                    - Notable projects were to re-write the billing system of the platform<br />
-                                    using the Braintree SDK, design and implement two RESTful APIs.
+                                    Developed quality focused web applications accompanied by automated tests and applied the TDD methodology.<br />
+                                    Refactored the codebase, improved the architecture and performance of the platform and its analytics dashboards.<br />
+                                    Re-wrote the billing system using the Braintree SDK, designed and implemented two RESTful APIs.
                                 </p>
                                 <!-- <div class="tags-title">Tags:</div> -->
                                 <ul class="tags">
                                     <li>PHP</li>
-                                    <li>Symfony2</li>
+                                    <li>Symfony</li>
                                     <li>Automated testing</li>
                                     <li>NoSQL</li>
                                     <li>REST</li>
-                                    <li>BDD</li>
                                     <li>Silex</li>
                                     <li>Analytics</li>
                                 </ul>
@@ -405,40 +402,28 @@
                             <div class="item">
                                 <h4>Dec 2012 - Jul 2014</h4>
                                 <div class="top">Software Engineer</div>
-                                <div class="sub">Forthnet S.A., Full time</div>
-                                <p>
-                                    - Developed web applications on a team that used the optimum patterns,<br />
-                                    methodologies and technologies.
-                                </p>
+                                <div class="sub">Forthnet S.A.</div>
                                 <p class="last">
-                                    - Notable projects were to develop applications on top of widely adopted APIs<br />
-                                    (eg. Google Maps & Analytics, Facebook).
+                                    Member of a team that developed web applications using the optimum patterns, methodologies and technologies<br />
+                                    on top of widely adopted APIs, like Google Maps & Analytics, Facebook.
                                 </p>
                                 <ul class="tags">
                                     <li>PHP</li>
-                                    <li>Symfony2</li>
-                                    <li>Javascript</li>
+                                    <li>Symfony</li>
+                                    <li>JavaScript</li>
                                     <li>Python</li>
-                                    <li>GIT</li>
-                                    <li>CI</li>
-                                    <li>Node.js</li>
-                                    <li>NoSQL</li>
                                 </ul>
                             </div>
                             <div class="item">
                                 <h4>Feb 2010 - Dec 2012</h4>
                                 <div class="top">Software Engineer</div>
-                                <div class="sub">Credicom Consumer Finance<br />(Cr&eacute;dit Agricole Group), Full time</div>
+                                <div class="sub">Credicom Consumer Finance (Cr&eacute;dit Agricole Group)</div>
                                 <p>
-                                    - Developed banking related functionalities using the latest Microsoft technologies.
-                                </p>
-                                <p>
-                                    - Member of a team that developed banking functionalities on top of the<br />
-                                    IBM Domino application server.
+                                    Developed banking related utilities using the latest Microsoft technologies this far. <br />
+                                    Member of a team that developed banking functionalities on top of the IBM Domino application server.
                                 </p>
                                 <p class="last">
-                                    - Nnotable projects were to develop web services for the e-Banking application<br />
-                                    and an IVR application on top of the Genesys Voice Platform.
+                                    Developed web services for the e-Banking application and an IVR application on Genesys Voice Platform.
                                 </p>
                                 <ul class="tags">
                                     <li>VB.NET</li>
@@ -449,36 +434,19 @@
                                     <li>Genesys Voice Platform</li>
                                 </ul>
                             </div>
-                            <div class="item">
-                                <h4>Mar 2008 - Feb 2010</h4>
-                                <div class="top">Desktop / Network / Hardware Technician</div>
-                                <div class="sub">Credicom Consumer Finance<br />(Cr&eacute;dit Agricole Group), Full time</div>
-                                <p>
-                                    - Expertised technical skills in a high demand workplace, focusing on teamwork<br />
-                                    and improved my communication skills (with non-technical staff too).
-                                </p>
-                                <p>
-                                    - Developed multiple tools to automate tasks and minimize human intervention.
-                                </p>
-                                <p class="last">
-                                    - Notable additional responsibilities were to first-level administrate and configure<br />
-                                    the computer domain & network.
-                                </p>
-                                <ul class="tags">
-                                    <li>Active Directory</li>
-                                    <li>Cisco</li>
-                                </ul>
-                            </div>
                             <div class="item item-last">
-                                <h4>Apr 2007 - Mar 2008</h4>
-                                <div class="top">CATI Applications Developer</div>
-                                <div class="top">System & Network Administrator</div>
-                                <div class="sub">Centrum Research, Full time</div>
+                                <h4>Apr 2007 - Feb 2010</h4>
+                                <div class="top">Technician, System & Network Administrator</div>
+                                <div class="sub">on two companies</div>
                                 <p>
-                                    - Developed "Computer Assisted Interview" applications.
+                                    Worked as a Desktop / Network Technician and System & Network Administrator on Credicom Consumer Finance<br />
+                                    (Cr&eacute;dit Agricole Group) and Centrum Research respectively.
+                                </p>
+                                <p>
+                                    Developed multiple tailor-made tools to automate tasks and minimize human intervention.
                                 </p>
                                 <p class="last">
-                                    - Later, I was assigned to manage the computer infrastructure and network.
+                                    Notable responsibilities were to first-level administrate and configure the computer domain & network.
                                 </p>
                                 <ul class="tags">
                                     <li>Active Directory</li>
@@ -488,7 +456,7 @@
                             </div>
                         </td>
                     </tr>
-                    <tr><td colspan="2" height="30" valign="middle"><hr width="95%" /></td></tr>
+                    <tr><td colspan="2" height="20" valign="middle">&nbsp;</td></tr>
                     <tr>
                         <td valign="top">
                             <h2 class="cv-section-name">Skills</h2>
@@ -496,46 +464,95 @@
                         <td>
                             <div class="item">
                                 <h4>My expertise</h4>
-                                <div class="top">PHP | Symfony2 | MySQL | JS | jQuery | HTML5</div>
-                                <br />
-                                <p>
-                                    Highly educated in the above technology stack regarding web development.
-                                </p>
-                                <p>
-                                    Highly experienced in the development of web applications on top of the<br />
-                                    Symfony2 framework and it's little brother, Silex.
-                                </p>
+                                <div class="top">PHP | Symfony | Python | MySQL | JS</div>
                                 <p class="last">
-                                    I almost always write automated tests using PHPUnit, Behat, Selenium, CasperJS.
-                                </p>
-                            </div>
-                            <div class="item">
-                                <h4>Advanced</h4>
-                                <div class="top">Python | MongoDB | Redis | Git | Linux | Phing | CI | RabbitMQ | Docker</div>
-                                <br />
-                                <p>
-                                    Experienced in NoSQL and Key/Value databases.<br />
-                                    Worked extensively with MongoDB's "aggregation framework" on analytics.
-                                </p>
-                                <p>
-                                    Advanced knowledge of the Linux OS from the development environment<br />
-                                    up-to supporting the production environment.<br />
-                                    Highly confident with the terminal.
-                                </p>
-                                <p class="last">
-                                    Build & deployment automation using Phing, DBDeploy and Jenkins.
+                                    Highly experienced in the above technology stacks. I almost always :-) write automated tests using PHPUnit,<br />
+                                    Behat, Selenium, CasperJS.
                                 </p>
                             </div>
                             <div class="item item-last">
-                                <h4>Intermediate</h4>
-                                <div class="top">Node.js | React | AngularJS | Backbone.js</div>
-                                <br />
-                                Attracted to the above technologies and planning to study them deeper<br />
-                                in the near future in order to acquire expertise.
+                                <h4>Advanced</h4>
+                                <div class="top">Docker | MongoDB | Redis | RabbitMQ | Linux</div>
+                                <p>
+                                    Experienced in NoSQL, Key/Value databases. Worked extensively with MongoDB's "aggregation framework"<br />
+                                    and Redis for an analytics functionality.
+                                </p>
+                                <p class="last">
+                                    Advanced knowledge of the Linux OS from the development environment up-to supporting the production<br />
+                                    environment. Highly confident with the terminal.
+                                </p>
                             </div>
                         </td>
                     </tr>
-                    <tr><td colspan="2" height="30" valign="middle"><hr width="95%" /></td></tr>
+                    <tr><td colspan="2" height="30" valign="middle">&nbsp;</td></tr>
+                    <tr>
+                        <td valign="top">
+                            <h2 class="cv-section-name">Projects (curated list)</h2>
+                        </td>
+                        <td>
+                            <div class="item project-item">
+                                <div class="top">ojah</div>
+                                <div class="sub">An AI aggregator of positive news, made with Django.</div>
+                                <div class="links"><a href="http://ojah.io/">Visit</a>, <a href="https://github.com/mylk/ojah">Source</a></div>
+                            </div>
+                            <div class="item project-item">
+                                <div class="top">rabbitmq-alert</div>
+                                <div class="sub">A RabbitMQ monitoring tool that sends notifications when conditions are met, made with Python.</div>
+                                <div class="links"><a href="https://pypi.org/project/rabbitmq-alert/">Package</a>, <a href="https://github.com/gfronza/rabbitmq-alert">Source</a></div>
+                            </div>
+                            <div class="item project-item">
+                                <div span class="top">secret-spawn</div>
+                                <div class="sub">A generator of memorizable passwords, made with Spring Boot.</div>
+                                <div class="links"><a href="https://secretspawn.io">Visit</a>, <a href="https://github.com/mylk/secret-spawn">Source</a></div>
+                            </div>
+                            <div class="item project-item">
+                                <div class="top">acars-server</div>
+                                <div class="sub">An aviation ACARS message visualizer, made with Python.</div>
+                                <div class="links"><a href="http://mylk.wtf/acars-server">Visit</a>, <a href="https://github.com/mylk/acars-server">Source</a></div>
+                            </div>
+                            <div class="item project-item">
+                                <div class="top">chronis</div>
+                                <div class="sub">A crontab generator using natural language expressions, made with PHP.</div>
+                                <div class="links"><a href="https://packagist.org/packages/mylk/chronis">Package</a>, <a href="https://github.com/mylk/chronis">Source</a></div>
+                            </div>
+                            <div class="item project-item">
+                                <div class="top">termrea</div>
+                                <div class="sub">An RSS reader for the terminal, made with Python.</div>
+                                <div class="links"><a href="https://github.com/mylk/termrea">Source</a></div>
+                            </div>
+                            <div class="item project-item">
+                                <div class="top">commit-sniffer</div>
+                                <div class="sub">Repository quality stats generator, made with Laravel.</div>
+                                <div class="links"><a href="https://github.com/dbaltas/commit-sniffer">Source</a></div>
+                            </div>
+                            <div class="item project-item">
+                                <div class="top">grain</div>
+                                <div class="sub">A wannabe PHP MVC framework.</div>
+                                <div class="links"><a href="https://github.com/mylk/grain">Source</a></div>
+                            </div>
+                            <div class="item project-item">
+                                <div class="top">salt-out</div>
+                                <div class="sub">Salt output parser, made with Python.</div>
+                                <div class="links"><a href="https://github.com/mylk/salt-out">Source</a></div>
+                            </div>
+                            <div class="item project-item">
+                                <div class="top">capture-bot</div>
+                                <div class="sub">Reddit bot that posts screenshots of websites referenced in posts, comments, made with Python.</div>
+                                <div class="links"><a href="https://github.com/mylk/capture-bot">Source</a></div>
+                            </div>
+                            <div class="item project-item">
+                                <div class="top">nmap</div>
+                                <div class="sub">NSE scripts for vulnerability scanning of applications and appliances, made with Lua.</div>
+                                <div class="links"><a href="https://github.com/mylk/nmap/branches">Source</a></div>
+                            </div>
+                            <div class="item item-last project-item">
+                                <div class="top">workable-missing-rss</div>
+                                <div class="sub">A revival of Workable's "Greek start-ups feed", made with Python.</div>
+                                <div class="links"><a href="http://mylk.wtf/workable-missing-rss">Visit</a>, <a href="https://github.com/mylk/workable-missing-rss">Source</a></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr><td colspan="2" height="30" valign="middle">&nbsp;</td></tr>
                     <tr>
                         <td valign="top">
                             <h2 class="cv-section-name">Education</h2>
@@ -548,8 +565,7 @@
                                     Associate's Degree in "Computer Application,<br />
                                     Network and Office Automation"
                                 </div>
-                                Also, passed the exams of the Greek authority<br />
-                                "Organization of Vocational Education & Training" (OEEK) to certify the degree.
+                                Passed the exams of the authority "Organization of Vocational Education & Training" (OEEK) to certify the degree.
                             </div>
                             <div class="item item-last">
                                 <h4>1992 - 1999</h4>
@@ -557,15 +573,12 @@
                                 <div class="sub">FCE</div>
                                 <p>
                                     Fluent in English and the computer science terminology.<br />
-                                </p>
-                                <p>
-                                    For years, I used to translate open source applications and documentation<br />
-                                    from English to Greek.
+                                    For years, I used to translate open source applications and documentation from English to Greek.
                                 </p>
                             </div>
                         </td>
                     </tr>
-                    <tr><td colspan="2" height="30" valign="middle"><hr width="95%" /></td></tr>
+                    <tr><td colspan="2" height="30" valign="middle">&nbsp;</td></tr>
                     <tr>
                         <td valign="top">
                             <h2 class="cv-section-name">Training</h2>
@@ -574,128 +587,104 @@
                             <div class="item">
                                 <h4>2020</h4>
                                 <div class="top">University of Athens</div>
-                                <div class="sub">The Art of Persuasion</div>
-                                A 4 months duration seminar with primary goals to familiarize with the<br />
-                                principles of logical argumentation, evaluate and make logical arguments,<br />
-                                highlight ideas but also refute opposing arguments, by understanding the<br />
-                                forms of arguments and the rules of evaluation.
+                                <div class="sub">The Art of Persuasion, 4 months</div>
+                                Get familiar with the principles, evaluation and creation of argumentation, refute opposing arguments.
                             </div>
                             <div class="item">
                                 <h4>2019</h4>
                                 <div class="top">University of Athens</div>
-                                <div class="sub">Blockchain Developer</div>
-                                A 4 months duration seminar about the architecture of blockchains and their<br />
-                                philosophy, cryptocurrencies, the Etherium blockchain and developing smart<br />
+                                <div class="sub">Blockchain Developer, 4 months</div>
+                                Architecture of blockchains, their philosophy, cryptocurrencies, the Etherium blockchain, developing smart<br />
                                 contracts with Solidity. Accomplished with distinction.
                             </div>
                             <div class="item">
                                 <h4>2015</h4>
                                 <div class="top">MongoDB University</div>
-                                <div class="sub">MongoDB for Developers</div>
-                                A 7 weeks duration seminar about the development of applications backed<br />
-                                by MongoDB, its philosophy and architectural design as well as basic<br />
-                                administration. Accomplished with distinction.
+                                <div class="sub">MongoDB for Developers, 7 weeks</div>
+                                Development of applications backed by MongoDB, its philosophy and architectural design, basic administration.<br />
+                                Accomplished with distinction.
                             </div>
                             <div class="item">
-                                <h4>2015</h4>
                                 <div class="top">Coursera (by University of New Mexico)</div>
-                                <div class="sub">Web Application Architectures</div>
-                                A 6 weeks duration seminar that considers the design patterns, and major<br />
-                                architectural components of modern web applications. Also exercised them<br />
-                                using Ruby on Rails. Accomplished with distinction.
+                                <div class="sub">Web Application Architectures, 6 weeks</div>
+                                Design patterns, and major architectural components of modern web applications exercised with Ruby on Rails.<br />
+                                Accomplished with distinction.
                             </div>
                             <div class="item">
-                                <h4>2015</h4>
                                 <div class="top">Coursera (by Johns Hopkins University)</div>
-                                <div class="sub">The Data Scientist's Toolbox</div>
-                                A 4 weeks duration seminar that gives an overview of the ideas<br />
-                                and the tools that data analysts work with in order to turn data into<br />
-                                actionable knowledge. Accomplished with distinction.
+                                <div class="sub">The Data Scientist's Toolbox, 4 weeks</div>
+                                Overview of the ideas and the tools that data analysts work with in order to turn data into actionable knowledge.<br />
+                                Accomplished with distinction.
                             </div>
                             <div class="item">
                                 <h4>2014</h4>
                                 <div class="top">edX (by IIT Bombay University)</div>
-                                <div class="sub">CS101 - Computer Programming</div>
-                                Two seminars, 6 weeks duration each aiming to acquire basic knowledge<br />
-                                of C++ and exercise by solving common algorithmic puzzles.
+                                <div class="sub">CS101 - Computer Programming, two seminars 6 weeks each</div>
+                                Acquire basic knowledge of C++ and exercise by solving common algorithmic puzzles.
                             </div>
                             <div class="item">
                                 <h4>2013</h4>
                                 <div class="top">Coursera (by Rice University)</div>
-                                <div class="sub">Introduction to Interactive Python Programming</div>
-                                A 9 weeks duration seminar about Python and how to use it to build<br />
-                                interactive applications. Accomplished with distinction.
+                                <div class="sub">Introduction to Interactive Python Programming, 9 weeks</div>
+                                Python and how to use it to build interactive applications. Accomplished with distinction.
                             </div>
                             <!--
                             <div class="item">
                                 <h4>2012</h4>
                                 <div class="top">Stanford University via Coursera</div>
-                                <div class="sub">Cryptography I</div>
-                                Attended a 6 weeks duration seminar about cryptography, it's inner workings<br />
-                                and how to use it the right way.
+                                <div class="sub">Cryptography I, 6 weeks</div>
+                                Cryptography, it's inner workings and how to use it the right way.
                             </div>
                             -->
                             <div class="item">
                                 <h4>2011</h4>
                                 <div class="top">Genesys University</div>
-                                <div class="sub">Genesys CIM & GVP</div>
-                                A 40 hours duration seminar about development & administration<br />
-                                of contact center solutions using the Genesys platform.
+                                <div class="sub">Genesys CIM & GVP, 40 hours</div>
+                                Development & administration of contact center solutions using the Genesys platform.
                             </div>
                             <div class="item">
-                                <h4>2011</h4>
                                 <div class="top">ITEC</div>
-                                <div class="sub">Microsoft SharePoint 2010 Application Development</div>
-                                A 40 hours in-depth training about building solutions using the Microsoft<br />
-                                SharePoint 2010 platform.
+                                <div class="sub">Microsoft SharePoint 2010 Application Development, 40 hours</div>
+                                Building solutions using the Microsoft SharePoint 2010 platform.
                             </div>
                             <div class="item">
                                 <h4>2010</h4>
                                 <div class="top">Alcatel-Lucent</div>
-                                <div class="sub">Alcatel-Lucent CCA & CCO API</div>
-                                A 24 hour serminar and workshop about the development of contact center<br />
-                                applications using the Alcatel-Lucent API.
+                                <div class="sub">Alcatel-Lucent CCA & CCO API, 24 hours</div>
+                                Seminar and workshop about the development of contact center applications using the Alcatel-Lucent API.
                             </div>
                             <div class="item">
-                                <h4>2010</h4>
                                 <div class="top">ITEC</div>
-                                <div class="sub">Writing queries using MSSQL Server 2008 T-SQL</div>
-                                A 24 hour seminar covering the basics of T-SQL.
+                                <div class="sub">Writing queries using MSSQL Server 2008 T-SQL, 24 hours</div>
+                                Basics of T-SQL.
                             </div>
                             <div class="item">
                                 <h4>2008</h4>
                                 <div class="top">Hellenic American Union</div>
-                                <div class="sub">Cisco Certified Network Associate (CNAP)</div>
-                                A 9 month duration seminar about computer network theory, architecture,<br />
-                                security and management of Cisco devices.
+                                <div class="sub">Cisco Certified Network Associate (CNAP), 9 months</div>
+                                Computer network theory, architecture, security and management of Cisco devices.
                             </div>
                             <div class="item item-last">
                                 <h4>2007</h4>
                                 <div class="top">Association of Hellenic Internet Users (ΕΕΧΙ)</div>
-                                <div class="sub">GNU/Linux Operating System</div>
-                                A 24 hour seminar about the GNU/Linux operating system, which covered<br />
-                                system administration and advanced tasks on the GNU/Linux OS.
+                                <div class="sub">GNU/Linux Operating System, 24 hours</div>
+                                The GNU/Linux operating system, system administration and advanced tasks.
                             </div>
                         </td>
                     </tr>
-                    <tr><td colspan="2" height="30" valign="middle"><hr width="95%" /></td></tr>
+                    <tr><td colspan="2" height="30" valign="middle">&nbsp;</td></tr>
                     <tr>
                         <td valign="top">
-                            <h2 class="cv-section-name">Personal Interests</h2>
+                            <h2 class="cv-section-name">Interests</h2>
                         </td>
                         <td>
                             <div class="item">
                                 <div class="top">Sports</div>
-                                <div class="sub">Biking | Walking | Mini soccer</div>
-                                I love urban wandering by bike or on foot.<br />
-                                Occasionally, I try hard to be a decent mini soccer player (no much luck).
+                                <div class="sub">Cycling, Urban hiking</div>
                             </div>
-                            <div class="item">
+                            <div class="item item-last">
                                 <div class="top">Arts</div>
-                                <div class="sub">Guitar | Music | Theater</div>
-                                Self-taught guitar player.<br />
-                                I love listening to various music genres and to discover music styles.<br />
-                                Regular theater-goer.
+                                <div class="sub">Play the guitar, Theater-goer</div>
                             </div>
                         </td>
                     </tr>
